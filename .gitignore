@@ -1,0 +1,26 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# Credentials and local-only material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+credentials.json
+secrets.json
+private/
+data/private/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local verification artifacts
+/tmp/
